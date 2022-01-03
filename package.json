@@ -1,0 +1,51 @@
+{
+  "name": "to-dto",
+  "version": "0.0.0",
+  "description": "Opinionated library for converting object graphs to safe publicly-consumable DTO objects.",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint ./src/**/*.js",
+    "lint:fix": "eslint ./src/**/*.js --fix",
+    "setup": "npm i --legacy-peer-deps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FredLackey/to-dto.git"
+  },
+  "keywords": [
+    "dto",
+    "data transfer object"
+  ],
+  "author": {
+    "name": "Fred Lackey",
+    "email": "fred.lackey@gmail.com",
+    "url": "http://fredlackey.com"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/FredLackey/to-dto/issues"
+  },
+  "homepage": "https://github.com/FredLackey/to-dto#readme",
+  "dependencies": {
+    "camelcase": "^6.3.0",
+    "html-to-text": "^8.1.0",
+    "is-html": "^3.0.0",
+    "moment": "^2.29.1",
+    "semver": "^7.3.5",
+    "uuid": "^8.3.2",
+    "uuid-validate": "0.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.6.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint-plugin-standard": "^4.1.0"
+  }
+}
